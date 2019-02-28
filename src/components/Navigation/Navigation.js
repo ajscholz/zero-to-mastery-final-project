@@ -12,7 +12,6 @@ const Navigation = ({ onRouteChange, isSignedIn }) => {
     );
   } else {
     return (
-
       <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
         <p
           onClick={() => onRouteChange('signin')}
